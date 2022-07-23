@@ -2,8 +2,7 @@ package com.gb.nasa.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.WindowCompat
-import com.gb.nasa.PictureOfTheDayFragment
+import com.gb.nasa.ui.pod.PictureOfTheDayFragment
 import com.gb.nasa.R
 import com.gb.nasa.databinding.ActivityMainBinding
 

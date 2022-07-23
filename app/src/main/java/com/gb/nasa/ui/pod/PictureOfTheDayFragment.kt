@@ -1,6 +1,5 @@
-package com.gb.nasa
+package com.gb.nasa.ui.pod
 
-import android.app.ProgressDialog.show
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.view.Gravity

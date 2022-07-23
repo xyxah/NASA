@@ -7,6 +7,7 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.io.IOException
+import java.util.concurrent.TimeUnit
 
 class PODRetrofitImpl {
 
@@ -25,6 +26,11 @@ class PODRetrofitImpl {
         httpClient.addInterceptor(interceptor)
         httpClient.addInterceptor(
             HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
+
+        httpClient.connectTimeout(30, TimeUnit.SECONDS)
+        httpClient.readTimeout(30, TimeUnit.SECONDS)
+        httpClient.writeTimeout(30, TimeUnit.SECONDS)
+
         return httpClient.build()
     }
     inner class PODInterceptor : Interceptor {

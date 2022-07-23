@@ -1,8 +1,9 @@
-package com.gb.nasa
+package com.gb.nasa.ui.pod
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.gb.nasa.BuildConfig
 import com.gb.nasa.api.pictureoftheday.PODRetrofitImpl
 import com.gb.nasa.api.pictureoftheday.PODServerResponseData
 import com.gb.nasa.api.pictureoftheday.PictureOfTheDayData
