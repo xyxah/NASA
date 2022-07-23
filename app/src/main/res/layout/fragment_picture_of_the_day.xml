@@ -69,7 +69,7 @@
         android:layout_gravity="bottom"
         app:backgroundTint="?attr/colorSecondary"
         app:fabAlignmentMode="center"
-        app:menu="@menu/menu_main"
+        app:menu="@menu/menu_bottom_navigation"
         app:navigationIcon="@drawable/ic_hamburger_menu_bottom_bar"
         app:navigationIconTint="@color/white"/>
 
