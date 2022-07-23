@@ -1,8 +1,8 @@
-package com.gb.nasa.api.pictureoftheday
+package com.gb.nasa.api.pod
 
 import com.google.gson.annotations.SerializedName
 
-data class PODServerResponseData(
+data class PODResponseData(
     @field:SerializedName("copyright") val copyright: String?,
     @field:SerializedName("date") val date: String?,
     @field:SerializedName("explanation") val explanation: String?,

@@ -4,7 +4,6 @@
     <color name="colorPrimary">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="colorAccent">#FF03DAC5</color>
-    <color name="colorAccent40Alfa">#6603DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
@@ -17,4 +16,7 @@
     <color name="pink">#e040fb</color>
     <color name="pink_dark">#aa00c7</color>
     <color name="pink_light">#ff79ff</color>
+
+    <color name="colorAccent40Alfa">#6603DAC5</color>
+
 </resources>
